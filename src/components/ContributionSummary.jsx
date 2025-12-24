@@ -118,7 +118,7 @@ const ContributionSummary = (props) => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href={`https://github.com/issues?utf8=%E2%9C%93&q=is%3Aissue+author%3Asingodiyashubham87`}
+                  href={`https://github.com/issues?utf8=%E2%9C%93&q=is%3Aissue+author%3A${userDetails.username}`}
                 >
                   <HiOutlineExternalLink className="text-[1rem] vvsm:text-[1.2rem] vsm:text-[1.3rem] md:text-[1.5rem] text-lightBlue p-[0.2rem] bg-darkGrey rounded-[0.3rem] hover:text-darkBlue cursor-pointer" />
                 </a>
